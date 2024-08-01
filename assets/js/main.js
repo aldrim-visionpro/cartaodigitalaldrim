@@ -33,8 +33,14 @@ function updateHardSkills(profileData) {
 }
 
 function updateSocialMedia(profileData) {
-    const socials = document.getElementById('profile.socialMedia.social')
-    socials.innerHTML = profileData.socials.map(social => `<li>${social}</li>`).join('')
+    const socials = document.getElementById('profile.socialMedia');
+    if (!profileData.socialMedia || !Array.isArray(profileData.socialMedia)) {
+        console.error('profileData.socialMedia não é um array válido.');
+        return;
+    }
+    socials.innerHTML = profileData.socialMedia.map(social => 
+        `<li><img src="${social.logo}" alt="${social.name}" title="${social.name}"><a href="${social.url}">${social.name}</a></li>`
+    ).join('');
 }
 
 function updatePortfolio(profileData) {
