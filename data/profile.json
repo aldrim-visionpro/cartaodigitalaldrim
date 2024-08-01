@@ -60,6 +60,11 @@
       "logo": "https://raw.githubusercontent.com/aldrim-visionpro/cartaodigitalaldrim/main/data/imgs/whats.png",
       "name": "WhatsApp",
       "url": ""
+    },
+    {
+      "logo": "",
+      "name": "TikTok",
+      "url": ""
     }
     ],
   "portfolio": [
