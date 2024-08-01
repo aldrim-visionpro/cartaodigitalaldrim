@@ -40,11 +40,15 @@
         "Organização"
       ]
     },
-    "languages": [
-      "Português BR",
-      "Inglês (intermediário)",
-      "Espanhol (intermediário)"
-    ],
+    "mediasocial": {
+      "social": [
+        {
+          "name": "Instagram",
+          "logo": "",
+          "url": ""
+        }
+      ]
+    },
     "portfolio": [
       {
         "name": "",
@@ -62,6 +66,11 @@
         "name": "Integrador de Sistemas de Segurança Eletrônica",
         "period": "1990 - até o momento",
         "description": "Integrando e viabilizando sistemas de segurança eletrônica desde 1990 com qualidade."
+      },
+      {
+        "name": "",
+        "period": "",
+        "description": ""
       }
     ]
   }
