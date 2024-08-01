@@ -40,15 +40,13 @@
       "Organização"
     ]
   },
-  "socialMedia": {
-    "social": [
-      {
-        "name": "Instagram",
-        "logo": "https://raw.githubusercontent.com/aldrim-visionpro/cartaodigitalaldrim/main/data/imgs/instagram.png",
-        "url": ""
-      }
-    ]
-  },
+  "socialMedia": [
+    {
+      "name": "Instagram",
+      "logo": "https://raw.githubusercontent.com/aldrim-visionpro/cartaodigitalaldrim/main/data/imgs/instagram.png",
+      "url": ""
+    }
+    ],
   "portfolio": [
     {
       "name": "",
