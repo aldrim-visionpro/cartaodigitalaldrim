@@ -47,8 +47,18 @@
       "url": "https://www.instagram.com/c.andreyz?igsh=bzFtN3JpejBjMjhp"
     },
     {
-      "logo": "",
-      "name": "",
+      "logo": "https://raw.githubusercontent.com/aldrim-visionpro/cartaodigitalaldrim/main/data/imgs/linkedin.png",
+      "name": "Linkedin",
+      "url": ""
+    },
+    {
+      "logo": "https://raw.githubusercontent.com/aldrim-visionpro/cartaodigitalaldrim/main/data/imgs/facebook.png",
+      "name": "Facebook",
+      "url": ""
+    },
+    {
+      "logo": "https://raw.githubusercontent.com/aldrim-visionpro/cartaodigitalaldrim/main/data/imgs/whats.png",
+      "name": "WhatsApp",
       "url": ""
     }
     ],
