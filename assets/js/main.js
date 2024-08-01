@@ -39,7 +39,7 @@ function updateSocialMedia(profileData) {
         return;
     }
     socials.innerHTML = profileData.socialMedia.map(social => 
-        `<li><img src="${social.logo}" alt="${social.name}" title="${social.name}"><a href="${social.url}">${social.name}</a></li>`
+        `<li> <img src="${social.logo}" alt="${social.name}" title="${social.name}"> <a href="${social.url}" target="_blank">${social.name}</a></li>`
     ).join('');
 }
 
