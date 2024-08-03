@@ -5,39 +5,14 @@
   "location": "Crateús - CE",
   "phone": "(88) 99233-7000",
   "email": "kaltrimbarata@gmail.com",
-  "skills": {
-    "hardSkills": [
-      {
-        "name": "JavaScript",
-        "logo": "https://raw.githubusercontent.com/aldrim-visionpro/cartaodigitalaldrim/main/data/imgs/instagram.png"
-      },
-      {
-        "name": "React",
-        "logo": ""
-      },
-      {
-        "name": "HTML",
-        "logo": ""
-      },
-      {
-        "name": "CSS",
-        "logo": ""
-      },
-      {
-        "name": "Python",
-        "logo": ""
-      },
-      {
-        "name": "NodeJS",
-        "logo": ""
-      }
-    ],
-    "softSkills": [
-      "Empatia",
-      "Liderança",
-      "Trabalho em equipe",
-      "Flexibilidade",
-      "Organização"
+  "services": {
+    "softServices": [
+      "CÂMERAS DE SEGURANÇA (HD / IP / PTZ)",
+      "AUTOMAÇÃO  RESIDÊNCIAL (ALEXA / SIRE /GOOGLE / ZIBLE)",
+      "PORTÃO AUTOMÁTICO :VENDAS, MONTAGEM, MANUTENÇÕES DE MARCAS (ROSSI/ PPA / GAREN / INTELBRAS /PECCININ...)",
+      "VIDEO PORTEIRO : VENDAS, MONTAGENS, MANUTENÇÕES (INTELBRAS / ...)",
+      "CERCA ELÉTRICA: VENDAS E MANUTENÇÃO ( JFL / INTELBRAS / GCP...)",
+      "CENTRAL DE AR:  MONTAGEM, MANUTENÇÕES  E HIGIENIZARCAO."
     ]
   },
   "socialMedia": [
