@@ -9,9 +9,9 @@
     "softServices": [
       "Câmeras de segurança (HD / IP / PTZ)",
       "Automação Residencial (Alexa / Sire /Google / Zible)",
-      "Portão Automático :Vendas, Montagem, Manutenção de marcas (Rossi / PPA / Garen / Intelbras /Peccinin...)",
+      "Portões Automáticos :Vendas, Montagem, Manutenção de marcas (Rossi / PPA / Garen / Intelbras /Peccinin...)",
       "Vídeo Porteiro: Vendas, Montagens, Manutenção (Intelbras / ...)",
-      "Cerca Elétrica: Vendas E manutenção ( JFL / Intelbras / GCP...)",
+      "Cerca Elétrica: Vendas E manutenção (JFL / Intelbras / GCP...)",
       "Central de ar: Montagem, Manutenção e Higienização."
     ]
   },
@@ -61,9 +61,12 @@
       "description": "Integrando e viabilizando sistemas de segurança eletrônica desde 1990 com qualidade."
     },
     {
-      "name": "",
-      "period": "",
-      "description": ""
+      "name": "Sistema de CFTV",
+      "period": "1980 - até 2012",
+      "description": "Montagem de sistemas coletivos: Residências, Prédios/Condomínios"
+    },
+    {
+      
     }
   ]
 }
