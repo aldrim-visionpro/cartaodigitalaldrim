@@ -23,7 +23,7 @@ function updateProfileInfo(profileData) {
 }
 
 function updateSoftServices(profileData) {
-    const softServices = document.getElementById('profile.skills.softSkills')
+    const softServices = document.getElementById('profile.services.softServices')
     softServices.innerHTML = profileData.services.softServices.map(services => `<li>${services}</li>`).join('')
 }
 
