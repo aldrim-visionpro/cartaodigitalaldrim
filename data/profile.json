@@ -34,7 +34,7 @@
     {
       "logo": "https://raw.githubusercontent.com/aldrim-visionpro/cartaodigitalaldrim/main/data/imgs/whats.png",
       "name": "WhatsApp",
-      "url": ""
+      "url": "https://api.whatsapp.com/send?phone=5588992337000"
     },
     {
       "logo": "https://raw.githubusercontent.com/aldrim-visionpro/cartaodigitalaldrim/main/data/imgs/tiktok.png",
