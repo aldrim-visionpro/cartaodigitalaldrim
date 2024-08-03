@@ -1,9 +1,9 @@
-.skills {
+.services {
     display: flex;
     flex-direction: column;
 }
 
-.skills .tools ul {
+/* .skills .tools ul {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -18,9 +18,9 @@
     max-width: 50px;
     max-height: 50px;
     margin: 0 .5rem;
-}
+} */
 
-.skills .personal ul {
+.services .personal ul {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -30,13 +30,13 @@
     padding: 0;
 }
 
-.skills .personal ul li {
+.services .personal ul li {
     margin-left: 2rem;
     padding: .5rem
 }
 
 @media only screen and (min-width: 768px) {
-    .skills {
+    .services {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
