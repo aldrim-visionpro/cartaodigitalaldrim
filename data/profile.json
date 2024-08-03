@@ -39,7 +39,12 @@
     {
       "logo": "https://raw.githubusercontent.com/aldrim-visionpro/cartaodigitalaldrim/main/data/imgs/tiktok.png",
       "name": "TikTok",
-      "url": ""
+      "url": "https://www.tiktok.com/@carlosaldrim?_t=8oZ3LPfwj82&_r=1"
+    },
+    {
+      "logo": "",
+      "name": "YouTube",
+      "url": "https://youtube.com/@visionpro1508?si=VPCBiYISlVocJfHi"
     }
     ],
   "portfolio": [
@@ -66,7 +71,7 @@
       "description": "Montagem de sistemas coletivos: Residências, Prédios/Condomínios"
     },
     {
-      
+
     }
   ]
 }
