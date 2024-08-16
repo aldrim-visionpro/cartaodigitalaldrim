@@ -5,7 +5,7 @@
 }
 
 a {
-    color: #fff;
+    color: #ecf2ff;
     text-decoration: none;
 }
 
@@ -13,14 +13,16 @@ a:hover {
     text-decoration: underline;
 }
 
-@font-face {
+/* @font-face {
     font-family: 'Neue Machina';
     src: url('../fonts/neue-machina-regular.otf');
-}
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 body {
     background-color: #000;
-    color: #fff;
+    color: #ecf2ff;
 }
 
 .main {
@@ -33,26 +35,28 @@ body {
 .main::before,
 .main::after {
     content: '';
-    background-image: url('../img/background.svg');
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 100%, rgba(0,212,255,1) 100%);
     background-repeat: no-repeat;
-    background-size: contain;
-    display: inline-block;
+    background-size: cover; /* Ajusta o tamanho do background para cobrir toda a área */
+    display: block; /* Pode ser útil para garantir que o elemento cubra a área corretamente */
     position: fixed;
     top: 0;
     left: 0;
-    width: 140vw;
-    height: 100vh;
+    width: 100vw; /* Ajusta a largura para 100% da viewport */
+    height: 100vh; /* Ajusta a altura para 100% da viewport */
     z-index: -1;
+    
 }
 
-.main::after {
+/*.main::after {
     content: '';
     top: auto;
     left: auto;
     bottom: 0;
     right: 0;
     transform: rotate(180deg);
-}
+}*/
 
 @media only screen and (min-width: 768px) {
 
@@ -63,6 +67,6 @@ body {
     
     .main::before, 
     .main::after { 
-        width: 70vw;
+        width: 100vw;
     }
 }
