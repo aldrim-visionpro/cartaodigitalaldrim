@@ -25,3 +25,11 @@
     background-size: contain;
     margin-right: .5rem;
 }
+
+@media only screen and (min-width: 768px) {
+    .social {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-bottom: 1rem;
+    }
+}
