@@ -1,0 +1,84 @@
+/* Configurações globais */
+* {
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+a {
+    color: #ecf2ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Importando fonte */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    background-color: #000;
+    color: #ecf2ff;
+    display: flex;
+    justify-content: center;  /* Centraliza horizontalmente */
+    align-items: center;      /* Centraliza verticalmente */
+    min-height: 100vh;        /* Garante que o body ocupe 100% da altura da viewport */
+}
+
+/* Estilo do contêiner principal */
+.main {
+    margin: 0;
+    padding: 1rem;
+    border: 1px solid #fff;
+    border-radius: 1rem;
+    width: 100%; /* Garante 100% da largura */
+    max-width: 80vw; /* Limita a largura máxima */
+    height: auto; /* Ajuste para auto, que permite o redimensionamento */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centraliza verticalmente o conteúdo dentro do .main */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Fundo gradiente com ::before */
+.main::before,
+.main::after {
+    content: '';
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 100%, rgba(0,212,255,1) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+}
+
+/* Centralizando o conteúdo dentro do .main */
+.main > * {
+    text-align: center;
+    align-items: center;
+}
+
+/* Estilo para telas maiores */
+@media only screen and (min-width: 768px) {
+    .main {
+        margin: 10px auto;  /* Margem superior e inferior de 10px */
+        max-width: 80vw;    /* Limita a largura máxima a 80% da viewport */
+        height: auto;       /* Ajusta a altura automaticamente */
+    }
+    
+    .main::before, 
+    .main::after { 
+        width: 100vw;
+        height: 100vh;
+    } 
+}

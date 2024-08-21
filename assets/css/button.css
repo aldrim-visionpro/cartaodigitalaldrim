@@ -1,0 +1,13 @@
+.header .button button {
+    background-color: #008CBA; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    padding: 10px 20px; /* Espaçamento interno */
+    border: none; /* Remove a borda padrão */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Muda o cursor para indicar um clique */
+    font-size: 16px; /* Tamanho do texto */
+}
+
+.header .button button:hover {
+    background-color: #007B9E; /* Cor de fundo ao passar o mouse */
+}
