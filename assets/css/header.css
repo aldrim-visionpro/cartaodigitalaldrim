@@ -79,10 +79,10 @@
         ;
     }
 
-    .header .photo {
+    /* .header .photo {
         grid-area: photo;
         margin: 0 auto;
-    }
+    } */
 
     .header .title {
         grid-area: title;
