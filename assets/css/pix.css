@@ -1,0 +1,26 @@
+.container {
+    display: flex; /* Alinha os itens em uma linha */
+    align-items: center; /* Alinha verticalmente os itens no centro */
+    gap: 10px; /* Espaçamento entre a ul e o botão */
+}
+
+ul.copy {
+    list-style-type: none; /* Remove as bolinhas da lista */
+    margin: 0;
+    padding: 0;
+    font-size: 16px; /* Tamanho do texto */
+}
+
+button#copyButton {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button#copyButton:hover {
+    background-color: #45a049; /* Efeito de hover no botão */
+}
