@@ -1,3 +1,15 @@
+#paymentSection {
+    
+  }
+  
+  #paymentSection .container {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+
 .container {
     display: flex; /* Alinha os itens em uma linha */
     align-items: center; /* Alinha verticalmente os itens no centro */
