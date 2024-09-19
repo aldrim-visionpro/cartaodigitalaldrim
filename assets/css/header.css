@@ -21,7 +21,6 @@
 .header .photo {
     width: 500px;
     height: 200px;
-    
 }
 
 .header .title {
@@ -81,7 +80,7 @@
 
      .header .photo {
         grid-area: photo;
-        margin: 0 auto;
+        margin: 15px auto;
     } 
 
     .header .title {
